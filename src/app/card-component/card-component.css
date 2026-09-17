@@ -1,0 +1,19 @@
+:host{
+    display: grid;
+    place-items: center;
+}
+
+.card{
+    display: grid;
+    padding: 15px 20px 30px;
+    border-radius: 40px;
+    background-color: bisque;
+}
+
+.ativo{
+    color: green;
+}
+
+.inativo{
+    color: red;
+}

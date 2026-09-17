@@ -1,0 +1,9 @@
+<div class="card">
+    <h3>Nome: {{cardData.nome}}</h3>
+    <p>Idade: {{cardData.idade}}</p>
+    @if (cardData.ativo) {
+        <span class="ativo">Você está <b>ativo</b></span>
+    }@else {
+        <span class="inativo">Você é passivo</span>
+    }
+</div>

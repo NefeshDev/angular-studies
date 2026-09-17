@@ -1,0 +1,9 @@
+<div class="lista-cards">
+    @for (usuario of listaUsuarios; track usuario.nome) {
+        @if (usuario.ativo) {
+            <app-card-component [cardData]="usuario"></app-card-component>
+        }   
+    } @empty {
+        <p>Nenhum usuário encontrado na lista.</p>
+    }
+</div>
